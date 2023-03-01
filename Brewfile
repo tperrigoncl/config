@@ -1,7 +1,6 @@
 tap "buo/cask-upgrade"
 tap "homebrew/bundle"
 tap "homebrew/cask"
-tap "homebrew/core"
 tap "homebrew/services"
 tap "virtuslab/scala-cli"
 brew "awscli"
@@ -20,7 +19,7 @@ brew "kubernetes-cli"
 brew "lsd"
 brew "minikube"
 brew "pgcli"
-brew "postgresql", restart_service: true
+brew "postgresql@15", restart_service: true
 brew "ripgrep"
 brew "tree"
 brew "wget"
