@@ -18,6 +18,8 @@ brew "k9s"
 brew "kubernetes-cli"
 brew "lsd"
 brew "minikube"
+brew "node"
+brew "nvm"
 brew "pgcli"
 brew "postgresql@15", restart_service: true
 brew "ripgrep"
