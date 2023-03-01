@@ -18,8 +18,8 @@ DEFAULT_USER="tperrigo"
 plugins=(
 	git
 	zsh-autosuggestions
-	zshrc-autosuggestions
-	zshrc-completions
+	zsh-autosuggestions
+	zsh-completions
 	sudo
 	dotenv 
 )
@@ -28,18 +28,18 @@ autoload -U compinit && compinit
 
 source $ZSH/oh-my-zsh.sh
 
-#alias ls='lsd -lhAF'
+alias ls='lsd -lhAF'
 alias curl='curl --insecure' 
 alias mkdir='mkdir -pv' 
 alias wget='wget -c' 
 alias rm='rm -v' 
 alias mv='mv -v' 
 alias javas='/usr/libexec/java_home -V'
-#alias mini='minikube'
-#alias k='kubectl'
-#alias minienv='eval $(minikube -p minikube docker-env)'
-#alias lg=lazygit
-#alias cat="bat --theme=\$(defaults read -globalDomain AppleInterfaceStyle &> /dev/null && echo default || echo GitHub)"
+alias mini='minikube'
+alias k='kubectl'
+alias minienv='eval $(minikube -p minikube docker-env)'
+alias lg=lazygit
+alias cat="bat --theme=\$(defaults read -globalDomain AppleInterfaceStyle &> /dev/null && echo default || echo GitHub)"
 
 export EDITOR=nano
 export GITSTATUS_LOG_LEVEL=DEBUG
@@ -58,8 +58,6 @@ export SDKMAN_DIR="$HOME/.sdkman"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # set minikube environment
-#eval $(minikube -p minikube docker-env)
-
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+eval $(minikube -p minikube docker-env)
 
 
