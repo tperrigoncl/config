@@ -1,4 +1,14 @@
 # config
+The `config` repository contains information and scripts for configuring a (macOS) development environment.
+
+The `Brewfile` in this repository includes most commonly used development tools, such as:
+* `awscli`
+* `docker`, `docker-compose`
+* `minikube` (for kubernetes local)
+* `kubectl` (and `krew`, for plugins)
+* `postgresql`
+
+...and many others. A list of some of the less familiar tools follows.
 
 ## Initial Installs - Homebrew ##
 Tool | Description | Install
