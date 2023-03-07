@@ -64,4 +64,9 @@ export SDKMAN_DIR="$HOME/.sdkman"
 # set minikube environment
 eval $(minikube -p minikube docker-env)
 
+# Load Angular CLI autocompletion.
+source <(ng completion script)
 
+alias qa1='cd ~/src/zero-quest && sbt -Dconfig.resource=local2qa1.conf run'
+alias qa2='cd ~/src/zero-quest && sbt -Dconfig.resource=local2qa2.conf run'
+alias qa3='cd ~/src/zero-quest && sbt -Dconfig.resource=local2qa3.conf run'
