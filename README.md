@@ -25,6 +25,7 @@ Tool | Description | Install
 [gh](https://cli.github.com/)|Github CLI| `brew install gh`
 [pgcli](https://www.pgcli.com/)|configurable CLI for PostgreSQL|`brew install pgcli`
 [postman](https://www.postman.com/)|API platform for building and testing APIs|`brew install postman`
+[fx](https://github.com/antonmedv/fx)|terminal JSON viewer/explorer|`brew install fx`
 
 ### Node, nvm, Angular ###
 Homebrew can be used to install node and nvm:
